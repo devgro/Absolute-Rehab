@@ -1,57 +1,65 @@
 body {
-            margin: 0 auto;
-        padding: 2em 2em 4em;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 16px;
-        color:#ffffff;
-        background-color:#ffffff;
-        -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-        -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-        box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color:#f2eaea;
+    background-color:#f2eaea;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
 header {
     font-size: 34px;
     line-height: 3px;
-    color:#337aa4
+    color:#337aa4;
 }
 
 menu {
-    color:"#ffffff"
-	-webkit-transition-property: all;
-	-webkit-transition-duration: .2s;
-  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
-	-moz-transition-property: all;
-  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    color:#f2eaea;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 }
 
 body{   
-    color:#ffffff
-  background:#ffffff;
-  padding:75px;
-  text-align:center;
-  font-family: 'Oswald', sans-serif;
+    color:#f2eaea;
+    background:#f2eaea;
+    padding:75px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1{
-  color:#ffffff
-  font-weight:100;
+    color:#f2eaea;
+    font-weight:100;
 }
 
 .button{
-  color:#ffffff;
-  background:#337aa4;
-  padding:10px 20px;
-  font-size:12px;
-  text-decoration:#337aa4;
-  letter-spacing:2px;
-  
+    color:#f2eaea;
+    background:#337aa4;
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:#337aa4;
+    letter-spacing:2px;
+
 }
 
-.btn:hover{
-  border:none;
-  background:rgba(0, 0, 0, 0.4);
-  background:#fff;
-  padding:20px 20px; #000;
-  color:#337aa4;
+.button:hover{
+    border:none;
+    background:#f2eaea;
+    padding:20px 20px;
+    color:#337aa4;
+}
+
+h2 {
+    color:black
+}
+
+p {
+    color:black;
+    line-height: 2
 }
