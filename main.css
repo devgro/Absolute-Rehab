@@ -56,10 +56,28 @@ h1{
 }
 
 h2 {
-    color:black
+    color:black;
+    font-size: 30px;
 }
 
 p {
     color:black;
     line-height: 2
+}
+
+ul {
+    color:black;
+    text-align: left;
+    line-height: 1.7;
+}
+
+largertext {
+    font-size: 20px;
+}
+
+
+
+extraline {
+    line-height:;
+    color:#f2eaea;
 }
